@@ -16,12 +16,7 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
-          <p>Accelerate time to value
-           Drag-and-drop UI, data mapping tools, and comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed.
-           Improve productivity
-           Operational intelligence, reusable business logic, and data flow recommendations simplify your integration process and error resolution.
-           Tailor to your needs
-           Templates, process libraries and custom scripting balance your productivity and control, allowing your organization to be successful with any connected business use case.</p>
+          <p>Accelerate time to value: Drag-and-drop UI, data mapping tools, and comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed. Improve productivity: Operational intelligence, reusable business logic, and data flow recommendations simplify your integration process and error resolution. Tailor to your needs: Templates, process libraries and custom scripting balance your productivity and control, allowing your organization to be successful with any connected business use case.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
           {close}
         </article>
