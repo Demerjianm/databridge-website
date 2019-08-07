@@ -9,8 +9,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Data Bridge Management</h1>
-                <p>A Presented by Jake Spear <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <p>A Presented by Jake Spear, here to solve your problems! </p>
             </div>
         </div>
         <nav>
