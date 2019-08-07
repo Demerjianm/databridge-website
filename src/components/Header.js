@@ -9,7 +9,7 @@ const Header = (props) => (
         <div className="content">
             <div className="inner">
                 <h1>Data Bridge Management</h1>
-                <p>A Presented by Jake Spear, here to solve your problems! </p>
+                <p>Presented by Jake Spear, looking for data transfer automation? We are here to solve your problems! </p>
             </div>
         </div>
         <nav>
