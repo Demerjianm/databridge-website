@@ -24,8 +24,8 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">How It Works</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p> Alleviating small headaches one step at a time by minimizing the number of dual entries into multiple databases/systems. Much of the time businesses use the same data across multiple databases and systems and it becomes extremely </p>
-          <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
+          <p>Alleviating small headaches one step at a time by minimizing the number of dual entries into multiple databases/systems. Much of the time businesses use the same data across multiple databases and systems and it becomes extremely difficult to keep the systems consistent across the board. Data Bridge Management has found great success by merging crucial information such as Employee Demographics, Labor Data, Etc. This data can be configured to update the 3rd party system on a schedule with crucial information. Sometimes that one special report, CAN'T wait a day! </p>
+          <p>Step1: Identify Multiple Databases and Systems </p>
           {close}
         </article>
 
