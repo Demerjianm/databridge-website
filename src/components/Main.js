@@ -39,7 +39,7 @@ class Main extends React.Component {
             these different applications. Data integration becomes necessary
             when multiple applications have their data stored in different
             databases, each for their respective applications. In other words,
-            the data is avaiable between two different parties and therefore,
+            the data is available between two different parties and therefore,
             can be easily accessed and implemented into a different application
             without having to transfer to a different database manually. Our
             solution makes it possible for all the applications to be grouped
@@ -122,13 +122,13 @@ class Main extends React.Component {
           <p>
             Our team of innovative thinkers from across the world have many like
             minds looking to accomplish the same goal. Our technology experts
-            focus on using the m ost efficient process with the most effective
-            tools. Many organizations are scared of the change and leading the
+            focus on using the most efficient process with the most effective
+            tools. Many organizations are scared of change and leading the
             pack, that is our design. Data Bridge Management's focus is to give
             you the most up to date advice and provide you with options that
             will carry you into the future in a cost-effective way.{' '}
           </p>
-          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufactures looking to streamline administrative or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally </p>
+          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufactures looking to streamline administrative or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally. </p>
           {close}
         </article>
 
