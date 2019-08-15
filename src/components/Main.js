@@ -80,8 +80,30 @@ class Main extends React.Component {
             the 3rd party system on a schedule with crucial information.
             Sometimes that one special report, CAN'T wait a day!{' '}
           </p>
-          <li>
-            <ul>Step1: Identify Multiple Databases and Systems </ul>
+          <li style={{ 'list-style': 'none' }}>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 1:</b>Identify Multiple Databases and Systems{' '}
+            </ul>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 2:</b> Identify the System of Record Ex. What is the
+              first/most accurate system to receive this data point?
+            </ul>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 3:</b> What data point’s are constant across all or
+              multiple systems Ex. First Name, Job Codes, etc.
+            </ul>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 4:</b> Find all relevant fields in System of Record that
+              need to be configured
+            </ul>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 5:</b> Contact Data Bridge Management to review with a
+              Consultant
+            </ul>
+            <ul style={{ margin: '0 0 0.2rem 0' }}>
+              <b>Step 6:</b> Receive Map Layout from Consultant for verification
+              of fields
+            </ul>
           </li>
           {close}
         </article>
