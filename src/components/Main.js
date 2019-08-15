@@ -13,7 +13,7 @@ class Main extends React.Component {
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
 
-        <article id="Info" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+        <article id="Info" className={`${this.props.article === 'Info' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Info</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>This line was copied and pasted. Accelerate time to value: Drag-and-drop UI, data mapping tools, and comprehensive library of connectors, coupled with support for various integration patterns enable you to build any integrations with exceptional speed. Improve productivity: Operational intelligence, reusable business logic, and data flow recommendations simplify your integration process and error resolution. Tailor to your needs: Templates, process libraries and custom scripting balance your productivity and control, allowing your organization to be successful with any connected business use case.</p>
