@@ -25,14 +25,18 @@ class Main extends React.Component {
           <h2 className="major">How It Works</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>Alleviating small headaches one step at a time by minimizing the number of dual entries into multiple databases/systems. Much of the time businesses use the same data across multiple databases and systems and it becomes extremely difficult to keep the systems consistent across the board. Data Bridge Management has found great success by merging crucial information such as Employee Demographics, Labor Data, Etc. This data can be configured to update the 3rd party system on a schedule with crucial information. Sometimes that one special report, CAN'T wait a day! </p>
-          <p>Step1: Identify Multiple Databases and Systems </p>
+          <li>
+              <ul>Step1: Identify Multiple Databases and Systems </ul>
+               
+          </li>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Our Story</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>Our team of innovative thinkers from across the world have many like minds looking to accomplish the same goal. Our technology experts focus on using the  m ost efficient process with the most effective tools. Many organizations are scared of the change and leading the pack, that is our design. Data Bridge Management's focus is to give you the most up to date advice and provide you with options that will carry you into the future in a cost-effective way. </p>
+          <p>blah blah</p>
           {close}
         </article>
 
