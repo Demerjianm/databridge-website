@@ -128,7 +128,7 @@ class Main extends React.Component {
             you the most up to date advice and provide you with options that
             will carry you into the future in a cost-effective way.{' '}
           </p>
-          <p>blah blah I suck</p>
+          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufactures looking to streamline administrative or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally </p>
           {close}
         </article>
 
