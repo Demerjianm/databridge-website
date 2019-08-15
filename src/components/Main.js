@@ -164,7 +164,7 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a href="https://twitter.com/databridgemgmt" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </a>
             </li>
