@@ -169,17 +169,17 @@ class Main extends React.Component {
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-facebook">
+              <a href="https://www.facebook.com/Data-Bridge-Management-LLC-112592993433351/?ref=your_pages" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" className="icon fa-instagram">
+              <a href="https://www.instagram.com/databridgemgmt/" target="_blank" className="icon fa-instagram">
                 <span className="label">Instagram </span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-github">
+              <a href="https://www.linkedin.com/company/data-bridge-management/about/?viewAsMember=true" className="icon fa-github">
                 <span className="label">GitHub</span>
               </a>
             </li>
