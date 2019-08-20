@@ -35,7 +35,7 @@ class Main extends React.Component {
           </span>
           <p>
             Data integration means that multiple applications have their data
-            stored in a specific database, and that data is available across of
+            stored in a specific database, and that data is available across all of
             these different applications. Data integration becomes necessary
             when multiple applications have their data stored in different
             databases, each for their respective applications. In other words,
@@ -50,7 +50,7 @@ class Main extends React.Component {
             {' '}
             Improve Productivity: Operational intelligence, reusable business
             logic, and data flow recommendations simplify your integration
-            process and error resolution. Tailor to your needs: Templates,
+            process and error resolution. Tailored to your needs: Templates,
             process libraries, and custom scripting balance your productivity
             and control. This allows your organization to be successful with any
             connected business use case.{' '}
@@ -89,7 +89,7 @@ class Main extends React.Component {
               first/most accurate system to receive this data point?
             </ul>
             <ul style={{ margin: '0 0 0.2rem 0' }}>
-              <b>Step 3:</b> What data point’s are constant across all or
+              <b>Step 3:</b> What data points are constant across all or
               multiple systems Ex. First Name, Job Codes, etc.
             </ul>
             <ul style={{ margin: '0 0 0.2rem 0' }}>
@@ -128,7 +128,7 @@ class Main extends React.Component {
             you the most up to date advice and provide you with options that
             will carry you into the future in a cost-effective way.{' '}
           </p>
-          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufactures looking to streamline administrative or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally. </p>
+          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufacturers looking to streamline administrative tasks or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally. </p>
           {close}
         </article>
 
