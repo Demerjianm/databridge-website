@@ -35,8 +35,8 @@ class Main extends React.Component {
           </span>
           <p>
             Data integration means that multiple applications have their data
-            stored in a specific database, and that data is available across all of
-            these different applications. Data integration becomes necessary
+            stored in a specific database, and that data is available across all
+            of these different applications. Data integration becomes necessary
             when multiple applications have their data stored in different
             databases, each for their respective applications. In other words,
             the data is available between two different parties and therefore,
@@ -123,12 +123,20 @@ class Main extends React.Component {
             Our team of innovative thinkers from across the world have many like
             minds looking to accomplish the same goal. Our technology experts
             focus on using the most efficient process with the most effective
-            tools. Many organizations are scared of change and leading the
-            pack, that is our design. Data Bridge Management's focus is to give
-            you the most up to date advice and provide you with options that
-            will carry you into the future in a cost-effective way.{' '}
+            tools. Many organizations are scared of change and leading the pack,
+            that is our design. Data Bridge Management's focus is to give you
+            the most up to date advice and provide you with options that will
+            carry you into the future in a cost-effective way.{' '}
           </p>
-          <p>On the other end of the spectrum, clients are the focus. The team has handled a large range of client problem and initiatives. Spanning from nationwide fast-food chains trying to obtain labor data from a POS system to local manufacturers looking to streamline administrative tasks or eliminate data entry errors. Working with our highly skilled consultants will give you the competitive edge you have been looking for internally. </p>
+          <p>
+            On the other end of the spectrum, clients are the focus. The team
+            has handled a large range of client problem and initiatives.
+            Spanning from nationwide fast-food chains trying to obtain labor
+            data from a POS system to local manufacturers looking to streamline
+            administrative tasks or eliminate data entry errors. Working with
+            our highly skilled consultants will give you the competitive edge
+            you have been looking for internally.{' '}
+          </p>
           {close}
         </article>
 
@@ -164,22 +172,35 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a href="https://twitter.com/databridgemgmt" className="icon fa-twitter">
+              <a
+                href="https://twitter.com/databridgemgmt"
+                className="icon fa-twitter"
+              >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/Data-Bridge-Management-LLC-112592993433351/?ref=your_pages" className="icon fa-facebook">
+              <a
+                href="https://www.facebook.com/Data-Bridge-Management-LLC-112592993433351/?ref=your_pages"
+                className="icon fa-facebook"
+              >
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://www.instagram.com/databridgemgmt/" target="_blank" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/databridgemgmt/"
+                target="_blank"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram </span>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/data-bridge-management/about/?viewAsMember=true" className="icon fa-github">
+              <a
+                href="https://www.linkedin.com/company/data-bridge-management/about/?viewAsMember=true"
+                className="icon fa-linkedin"
+              >
                 <span className="label">Linkedin</span>
               </a>
             </li>
