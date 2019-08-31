@@ -180,7 +180,7 @@ class Main extends React.Component {
             </li>
             <li>
               <a href="https://www.linkedin.com/company/data-bridge-management/about/?viewAsMember=true" className="icon fa-github">
-                <span className="label">GitHub</span>
+                <span className="label">Linkedin</span>
               </a>
             </li>
           </ul>
