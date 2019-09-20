@@ -150,8 +150,8 @@ class Main extends React.Component {
 <?php
 if(isset($_POST['submit'])) {
  
-$email_from="Sales@databridgemgmt.com";
-    $email_to = "Sales@databridgemgmt.com";
+$email_from="jake@databridgemgmt.com";
+    $email_to = "jake@databridgemgmt.com";
     $email_subject = "Received Email from Customer";
  
  
