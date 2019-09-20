@@ -147,9 +147,34 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+<?php
+if(isset($_POST['email'])) {
+ 
+$email_from="Sales@databridgemgmt.com";
+    $email_to = "Sales@databridgemgmt.com";
+    $email_subject = "Received Email from Customer";
+ 
+ 
+     
+ 
+    $name = $_POST['name']; // required
+    $email = $_POST['email']; // required
+    $message = $_POST['message']; // not required
+     
+ 
+    $email_message .= "First Name: ".clean_string($name)."\n"
+    $email_message .= "Email: ".clean_string($email_from)."\n";
+    $email_message .= "Message: ".clean_string($message)."\n";
+  
+ 
+// create email headers
+$headers = 'From: '.$email_from."\r\n".
+'Reply-To: '.$email_from."\r\n" .
+'X-Mailer: PHP/' . phpversion();
+@mail($email_to, $email_subject, $email_message, $headers);  
+?>
           <h2 className="major">Contact</h2>
-          <form method="post" action="/databridge-website
-/src/components/sendEmail.php">
+          <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
