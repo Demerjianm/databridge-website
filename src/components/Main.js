@@ -148,7 +148,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['submit'])) {
  
 $email_from="Sales@databridgemgmt.com";
     $email_to = "Sales@databridgemgmt.com";
@@ -189,7 +189,7 @@ $headers = 'From: '.$email_from."\r\n".
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input name="submit" type="submit" value="Send Message" className="special" />
               </li>
               <li>
                 <input type="reset" value="Reset" />
