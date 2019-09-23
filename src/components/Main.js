@@ -175,7 +175,7 @@ mail($email_to, $email_subject, $email_message, $headers);
 echo "Mail Sent. Thank you " . $name. ", we will contact you shortly.";
 ?>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="databridgemgmt">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
