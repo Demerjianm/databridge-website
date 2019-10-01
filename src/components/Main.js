@@ -147,35 +147,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-<?php
-if(isset($_POST['submit'])) {
- 
-$email_from="jake@databridgemgmt.com";
-    $email_to = "jake@databridgemgmt.com";
-    $email_subject = "Received Email from Customer";
- 
- 
-     
- 
-    $name = $_POST['name']; // required
-    $email = $_POST['email']; // required
-    $message = $_POST['message']; // not required
-     
- 
-    $email_message .= "Name: ".clean_string($name)."\n"
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Message: ".clean_string($message)."\n";
-  
- 
-// create email headers
-$headers = 'From: '.$email_from."\r\n".
-'Reply-To: '.$email_from."\r\n" .
-'X-Mailer: PHP/' . phpversion();
-mail($email_to, $email_subject, $email_message, $headers); 
-echo "Mail Sent. Thank you " . $name. ", we will contact you shortly.";
-?>
           <h2 className="major">Contact</h2>
-          <form method="post" action="databridgemgmt">
+          <form
+            method="post"
+            // action="databridgemgmt"
+            onSubmit={() =>
+              window.open(
+                'mailto:michaeldemerjian@gmail.com?subject=subject&body=body'
+              )
+            }
+          >
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -190,7 +171,12 @@ echo "Mail Sent. Thank you " . $name. ", we will contact you shortly.";
             </div>
             <ul className="actions">
               <li>
-                <input name="submit" type="submit" value="Send Message" className="special" />
+                <input
+                  name="submit"
+                  type="submit"
+                  value="Send Message"
+                  className="special"
+                />
               </li>
               <li>
                 <input type="reset" value="Reset" />
