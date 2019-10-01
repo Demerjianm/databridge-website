@@ -4,16 +4,11 @@ import logo from '../images/jake_logo.png'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
-      <span className="icon ">
-        <img
-          src={logo}
-          alt="logo"
-          height={'60px'}
-          style={{ marginTop: '12px' }}
-        />
-      </span>
-    </div>
+    {/* <div className="logo"> */}
+    {/* <span className="icon "> */}
+    <img src={logo} alt="logo" height={'70px'} style={{ marginTop: '12px' }} />
+    {/* </span> */}
+    {/* </div> */}
     <div className="content">
       <div className="inner">
         <h1>Data Bridge Management</h1>
